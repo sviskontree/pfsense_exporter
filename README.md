@@ -6,10 +6,12 @@ The exporter is built to require no extra dependencies except python3. It's not 
 
 Get the files in the repository to the server in what ever way that you want.
 
+```
 $ mv pfsense_exporter.sh /usr/local/etc/rc.d/ 
 $ chmod 555 /usr/local/etc/rc.d/pfsense_exporter.sh
 $ mv pfsense_exporter.\* /usr/local/bin/
 $ chmod 555 /usr/local/bin/pfsense_exporter.py
+```
 
 Changes to the service can be done in /etc/rc.conf.local
 
